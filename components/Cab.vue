@@ -1,0 +1,41 @@
+<template name="component-name">
+  <section class="hero is-success is-fullheight">
+    <!-- Hero head: will stick at the top -->
+
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">ERI CRISTOFER VERA ITURRALDE</h1>
+      </div>
+    </div>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <li class="is-active">
+              <a>Overview</a>
+            </li>
+            <li>
+              <a href="#" v-scroll-to="'#campos'">Campos</a>
+            </li>
+            <li>
+              <a href="#" v-scroll-to="'#educacion'">Educacion</a>
+            </li>
+            <li>
+              <a href="#" v-scroll-to="'#experiencia'">Experiencia</a>
+            </li>
+            <li>
+              <a href="#" v-scroll-to="'#referencia'">Referecia</a>
+            </li>
+            <li>
+              <a href="#" v-scroll-to="'#referencia'">Conocimientos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+</template>
