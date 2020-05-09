@@ -6,7 +6,7 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title">ERI CRISTOFER VERA ITURRALDE 2</h1>
+        <h1 class="title">ERI CRISTOFER VERA ITURRALDE</h1>
       </div>
     </div>
 
