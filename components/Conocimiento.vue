@@ -1,10 +1,11 @@
 <template>
   <div class="campos">
-    <h1 class="title is-3">Conocimietos y Dominios</h1>
+    <h1 class="title is-3" id="conocimiento" data-aos="fade-up">Conocimietos y Dominios</h1>
+    <br>
     <div class>
       <div class>
-        <h2 class="title">Frontend</h2>
-        <div class="box">
+        <h2 class="title" data-aos="fade-up">Frontend</h2>
+        <div class="box" data-aos="zoom-in">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
@@ -57,9 +58,10 @@
             </div>
           </article>
         </div>
+        <br />
 
-        <h2 class="title">Backend</h2>
-        <div class="box">
+        <h2 class="title" data-aos="fade-up">Backend</h2>
+        <div class="box" data-aos="zoom-in-up">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
@@ -112,9 +114,10 @@
             </div>
           </article>
         </div>
+        <br />
 
-        <h2 class="title">Frameworks</h2>
-        <div class="box">
+        <h2 class="title" data-aos="fade-up">Frameworks</h2>
+        <div class="box" data-aos="zoom-in-down">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
@@ -167,50 +170,178 @@
             </div>
           </article>
         </div>
-        <h2 class="title">OTROS</h2>
-        <div class="box">
-          <article class="media">
-            <div class="">
-              <figure class="image is-64x64 left">
-                <img src="~/static/cpp.png" alt="Image" />
-              </figure>
-             
-              <figure class="image is-64x64 left">
-                <img src="~/static/firebase.png" alt="Image" />
-              </figure>
-               <figure class="image is-64x64 left">
-                <img src="~/static/git.png" alt="Image" />
-              </figure>
-               <figure class="image is-64x64 left">
-                <img src="~/static/laravel.png" alt="Image" />
-              </figure>
-               <figure class="image is-64x64 left">
-                <img src="~/static/mysql.png" alt="Image" />
-              </figure>
-              <figure class="image is-64x64 left">
-                <img src="~/static/nuxt.png" alt="Image" />
-              </figure>
+        <h2 class="title" data-aos="fade-up">OTROS</h2>
 
-              <figure class="image is-64x64 left">
-                <img src="~/static/typescript.png" alt="Image" />
-              </figure>
-              <figure class="image is-64x64 left">
-                <img src="~/static/mysql.png" alt="Image" />
-              </figure>
-              
+        <div class="columns is-desktop otros-margin">
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>EJS</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/ejs.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
             </div>
-  
-          </article>
-          <article class="media">
-            <figure class="image is-64x64 left">
-                <img src="~/static/typescript.png" alt="Image" />
-              </figure>
-              <figure class="image is-64x64 left">
-                <img src="~/static/mysql.png" alt="Image" />
-              </figure>
-           
-          </article>
-          
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Firebase</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/firebase.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Git</p>
+
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/git.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="columns is-desktop otros-margin">
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>MySQL</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/mysql.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Nuxt</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/nuxt.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>TypeScript</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/typescript.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+        </div>
+        <div class="columns is-desktop otros-margin">
+     
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Larevel</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/laravel.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Github</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/github.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Symfony</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/sym.jpg" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+             <div class="columns is-desktop otros-margin">
+     
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Bootstrap</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/bo.jpg" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Bulma</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/bulm.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box" id="element" data-aos="zoom-out-up">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class>Android</p>
+                  <figure class="image is-64x64 left">
+                    <img src="~/static/andro.png" alt="Image" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -223,8 +354,12 @@
   margin: auto;
   margin-top: 30px;
 }
- .left {
-   float: left;
- }
+.left {
+  float: left;
+}
+.otros-margin{
+  margin-left: 7%;
+  margin-right: 7%;
 
+}
 </style>

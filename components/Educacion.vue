@@ -1,10 +1,10 @@
 <template>
   <div class="campos">
-    <h1 class="title is-3"  id="educacion">Estudios Realizados</h1>
+    <h1 class="title is-3"  id="educacion" data-aos="fade-up">Estudios Realizados</h1>
 
     <div class="columns is-desktop">
       <div class="column">
-        <div class="box" id="element">
+        <div class="box" id="element" data-aos="fade-right">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="column">
-        <div class="box" id="element">
+        <div class="box" id="element" data-aos="fade-left">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">

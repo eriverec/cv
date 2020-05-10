@@ -1,9 +1,9 @@
 <template>
   <div class="campos">
-    <h1 class="title is-3">Experencia Laboral</h1>
+    <h1 class="title is-3" id="experiencia" data-aos="fade-up">Experencia Laboral</h1>
     <div class="columns is-desktop">
       <div class="column">
-        <div class="box" id="element" >
+        <div class="box" id="element" data-aos="fade-up-right">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">TEVCOL S.A.</p>
@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="column">
-        <div class="box" id="element">
+        <div class="box" id="element" data-aos="fade-down">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">IRIARCO S.A. <br>(CNEL EP)</p>
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="column">
-        <div class="box" id="element">
+        <div class="box" id="element" data-aos="fade-up-left">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">ECUAVISA C.LTDA</p>

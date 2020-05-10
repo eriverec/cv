@@ -5,10 +5,7 @@
     <educacion />
     <experiencia />
     <referencia />
-    <conocimiento />
-
-
-
+    <conocimiento /> 
     <Footer />
   </div>
 </template>
@@ -22,6 +19,7 @@ import Footer from "~/components/Footer.vue";
 import Experiencia from "~/components/Experiencia.vue";
 import Referencia from "~/components/Referencia.vue";
 import Conocimiento from "~/components/Conocimiento.vue";
+//import Modal from "~/components/Modal.vue"
 
 
 

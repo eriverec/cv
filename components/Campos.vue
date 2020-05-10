@@ -1,6 +1,6 @@
 <template>
   <div class="campos" >
-    <h1 class="title is-3"  id="campos">Campos de Trabajo</h1>
+    <h1 class="title is-3"  id="campos" data-aos="fade-up">Campos de Trabajo</h1>
     <div class="box" data-aos="fade-left">
       <nav class="level">
         <div class="level-item has-text-centered">

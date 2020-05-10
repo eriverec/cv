@@ -1,10 +1,10 @@
 <template>
   <div class="campos">
-    <h1 class="title is-3"  id="educacion">Referencia Personal</h1>
+    <h1 class="title is-3"  id="referencia" data-aos="fade-up">Referencia Personal</h1>
 
     <div class="columns is-desktop">
       <div class="column">
-        <div class="box" id="element">
+        <div class="box" id="element" data-aos="flip-left">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">
@@ -20,11 +20,11 @@
         </div>
       </div>
       <div class="column">
-        <div class="box" id="element">
+        <div class="box" id="element" data-aos="flip-right">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">
-                Federico Miguel <br />Iturralde Intriago
+                Federico Miguel <br>Iturralde Intriago
               </p><br>
               <h1>Artefacta</h1>
               <br />
@@ -36,11 +36,11 @@
         </div>
       </div>
        <div class="column">
-        <div class="box" id="element">
+        <div class="box" id="element" data-aos="flip-up">
           <div class="level-item has-text-centered">
             <div>
               <p class="title">
-               Daniel Tumbaco
+               Daniel Wilmer <br> Tumbaco Tumbaco
               </p><br>
               <h1>Claro Ecuador</h1>
               <br />
