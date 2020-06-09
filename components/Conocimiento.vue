@@ -349,9 +349,10 @@
 
 <style scoped>
 .title {
-  width: 20%;
+  width: 78%;
   margin: auto;
   margin-top: 30px;
+  text-align: center;
 }
 .left {
   float: left;
