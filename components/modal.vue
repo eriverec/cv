@@ -11,8 +11,8 @@
 
           <div class="content">
             <br/>
-            <h2>Eri Cristofer Vera Iturralde</h2>
-            <br />
+            <h2 style="text-align: center;">Eri Cristofer Vera Iturralde</h2>
+          
 
             <div class="field is-grouped is-grouped-multiline">
               <div class="control">
@@ -20,7 +20,7 @@
 
                 <div class="box  ">
                   <span ><font-awesome-icon icon="phone-alt" /> Telefono</span><br/>
-                  <span class="tag is-success is-medium">+593  9 7 8 7 7 5 2 0 1</span>
+                  <span class="tag is-success is-medium">0 9 7 8 7 7 5 2 0 1</span>
                 </div>
                 <div class="box">
                   <span ><font-awesome-icon icon="envelope-open" /> Email</span><br/>
@@ -63,7 +63,7 @@
 
 <style>
 .center-foto {
-  display: inline-block;
+  margin: auto;
 }
 .control{
   margin: auto;
@@ -75,4 +75,8 @@
   width: unset !important;
   text-align: center;
 }
+.modal body {  
+  overflow: hidden;
+  height: 100vh;
+  }
 </style>

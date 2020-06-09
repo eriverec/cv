@@ -6,13 +6,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">C U R R I C U L U M <br/><br/> V I T A E</h1>
-    
-
-        <button class="button is-dark" @click="showmodal=true">Ver mas</button>
-
-        <modal v-show="showmodal" @close='showmodal=false'  />
-
-
+         <span ><font-awesome-icon icon="chevron-down" /></span>
       </div>
     </div>
 
@@ -44,15 +38,5 @@
 </template>
 
 
-<script>
-import Modal from "~/components/Modal.vue";
 
-export default {
-  data() {
-    return {
-      showmodal: false
-    };
-  },
-  components: { Modal }
-};
-</script>
+

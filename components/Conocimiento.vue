@@ -1,11 +1,11 @@
 <template>
   <div class="campos">
     <h1 class="title is-3" id="conocimiento" data-aos="fade-up">Conocimietos y Dominios</h1>
-    <br>
+    <br />
     <div class>
       <div class>
         <h2 class="title" data-aos="fade-up">Frontend</h2>
-        <div class="box" data-aos="zoom-in">
+        <div class="box" data-aos="fade-up">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
@@ -61,7 +61,7 @@
         <br />
 
         <h2 class="title" data-aos="fade-up">Backend</h2>
-        <div class="box" data-aos="zoom-in-up">
+        <div class="box" data-aos="fade-up">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
@@ -117,7 +117,7 @@
         <br />
 
         <h2 class="title" data-aos="fade-up">Frameworks</h2>
-        <div class="box" data-aos="zoom-in-down">
+        <div class="box" data-aos="fade-up">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
@@ -173,9 +173,8 @@
         <h2 class="title" data-aos="fade-up">OTROS</h2>
 
         <div class="columns is-desktop otros-margin">
-
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>EJS</p>
@@ -188,7 +187,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Firebase</p>
@@ -201,7 +200,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Git</p>
@@ -213,13 +212,11 @@
               </div>
             </div>
           </div>
-
         </div>
 
         <div class="columns is-desktop otros-margin">
-
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>MySQL</p>
@@ -232,7 +229,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Nuxt</p>
@@ -245,7 +242,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>TypeScript</p>
@@ -256,13 +253,10 @@
               </div>
             </div>
           </div>
-
-         
         </div>
         <div class="columns is-desktop otros-margin">
-     
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Larevel</p>
@@ -275,7 +269,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Github</p>
@@ -288,7 +282,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Symfony</p>
@@ -299,12 +293,10 @@
               </div>
             </div>
           </div>
-
         </div>
-             <div class="columns is-desktop otros-margin">
-     
+        <div class="columns is-desktop otros-margin">
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Bootstrap</p>
@@ -317,7 +309,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Bulma</p>
@@ -330,7 +322,7 @@
           </div>
 
           <div class="column">
-            <div class="box" id="element" data-aos="zoom-out-up">
+            <div class="box" id="element" data-aos="fade-up">
               <div class="level-item has-text-centered">
                 <div>
                   <p class>Android</p>
@@ -340,26 +332,52 @@
                 </div>
               </div>
             </div>
+         
           </div>
-
         </div>
       </div>
     </div>
+
+
+       <button data-aos="fade-up"
+              class="button is-dark is-medium is-fullwidth is-outlined clase-eri"
+              @click="showmodal=true"
+            >Más</button>
+            <modal v-show="showmodal" @close="showmodal=false" :class="{body: isbody}" />
   </div>
 </template>
 
 <style scoped>
 .title {
-  width: 78%;
+  width: 20%;
   margin: auto;
   margin-top: 30px;
 }
 .left {
   float: left;
 }
-.otros-margin{
+.otros-margin {
   margin-left: 7%;
   margin-right: 7%;
-
+}
+.clase-eri{
+    width: 46%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 </style>
+
+<script>
+import Modal from "~/components/Modal.vue";
+
+export default {
+  data() {
+    return {
+      showmodal: false,
+      isbody: true
+    };
+  },
+  components: { Modal }
+};
+</script>
