@@ -6,7 +6,7 @@
         <div class="card-image"></div>
         <div class="card-content">
           <figure class="image is-128x128 center-foto">
-            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+            <img src="~/static/eri.jpg" alt="Placeholder image" />
           </figure>
 
           <div class="content">
