@@ -56,7 +56,7 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "My custom description"
+          content: "Esta es mi hoja de vida"
         }
       ],
       // link tags
