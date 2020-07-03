@@ -1,6 +1,6 @@
 # cv
 
-> Web Site Curriculum Vitae
+> My unreal Nuxt.js project
 
 ## Build Setup
 
