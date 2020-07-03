@@ -1,4 +1,3 @@
-# cv
 
 ## Web Site Curriculum Vitae
 
