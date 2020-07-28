@@ -30,6 +30,11 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
+    script: [{
+      src: 'https://www.googletagmanager.com/gtag/js?id=UA-173940359-1',
+      async: true
+    }],
+
     link: [{
       rel: 'icon',
       type: 'image/x-icon',
@@ -52,8 +57,13 @@ export default {
   plugins: [{
       src: "@/plugins/aos",
       ssr: false
-    }, {
+    },
+    {
       src: "@/plugins/vue-scrollto"
+    },
+    {
+      src: '~plugins/ga.js',
+      mode: 'client'
     }
 
   ],
@@ -75,19 +85,18 @@ export default {
     //'nuxt-fontawesome',
     [
       'nuxt-fontawesome', {
-        imports: [
-         {
-           set: '@fortawesome/free-solid-svg-icons',
-           icons: ['fas']
-         },
-         {
-           set:'@fortawesome/free-brands-svg-icons',
-           icons: ['fab']
-         }
-       ]
+        imports: [{
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['fab']
+          }
+        ]
       }
-]
-  
+    ]
+
   ],
   /*
    ** Axios module configuration
