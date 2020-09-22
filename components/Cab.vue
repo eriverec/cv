@@ -22,10 +22,10 @@
               <a href="#" v-scroll-to="'#educacion'">Educacion</a>
             </li>
             <li>
-              <a href="#" v-scroll-to="'#experiencia'">Experiencia</a>
+              <a href="#" v-scroll-to="'#experiencia'">Experiencias</a>
             </li>
             <li>
-              <a href="#" v-scroll-to="'#referencia'">Referecia</a>
+              <a href="#" v-scroll-to="'#referencia'">Referencias</a>
             </li>
             <li>
               <a href="#" v-scroll-to="'#conocimiento'">Conocimientos</a>
