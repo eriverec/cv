@@ -19,7 +19,7 @@
               <a href="#" v-scroll-to="'#campos'">Campos</a>
             </li>
             <li>
-              <a href="#" v-scroll-to="'#educacion'">Educacion</a>
+              <a href="#" v-scroll-to="'#educacion'">Educación</a>
             </li>
             <li>
               <a href="#" v-scroll-to="'#experiencia'">Experiencias</a>
